@@ -1,0 +1,23 @@
+{
+  "name": "ecoflow-backend",
+  "version": "1.0.0",
+  "description": "EcoFlow AI - Industrial Water Treatment & Environmental Compliance Platform Backend",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/backend_tests.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "socket.io": "^4.7.5",
+    "twilio": "^5.0.1"
+  }
+}
